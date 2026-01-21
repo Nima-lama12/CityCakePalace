@@ -31,7 +31,7 @@ let carddata = [
   { "pics": "images/hot-lemon-salt.jpg", "drinks": "Hot Lemon with Salt", "price": "Rs.100" },
   { "pics": "images/hot-lemon-ginger.jpg", "drinks": "Hot Lemon with Ginger", "price": "Rs.120" }
 ];
-
+// mapping the card
 const mappedcard = carddata.map((card) => {
     cardcontainer.innerHTML += `
     <div class="bg-white rounded-lg shadow-lg p-6 transition duration-300 ease-in-out 

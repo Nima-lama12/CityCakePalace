@@ -271,6 +271,7 @@ let carddata = [
         price: "Rs.1800"
     },
 ];
+// mapping the card 
 const mappedcard = carddata.map((card) => {
     cardcontainer.innerHTML += `
     <div class="bg-white rounded-lg shadow-lg p-6 transition duration-300 ease-in-out 
